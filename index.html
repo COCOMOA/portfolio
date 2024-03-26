@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Webサイト　ポートフォリオ　西尾千夏">
+    <title>Chintatsu Nishio Portfolio</title>
+    <!--CSS-->    
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!--フォント--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+　　<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+　　<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Julius+Sans+One&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+ <body>
+  <!--ヘッダー-->   
+  <header>
+    <div class="header">
+     <h1>Chintatsu Nishio Portfolio</h1>
+      <div class="menu">
+       <button class="button-about type=“button” onclick="location.href='#about'">
+         <ul>
+          <li><a class="title-about" href="#about">About</a></li>
+          <li><a id="subtitle-about" class="button" href="#about">自己紹介</li> 
+         </ul>
+      </button>
+       <button class="button-works" type=“button” onclick="location.href='#works'">
+         <ul>
+          <li><a class="title-works" href="#works">Works</a></li>
+          <li><a id="subtitle-works" class="button" href="#works">制作物</a></li>
+         </ul>
+       </button>
+      </div>
+     <div class="contact">
+      <button class="button-contact" type=“button” onclick="location.href='#contact'">
+        <ul>
+         <li><a class="title-contact" href="#contact">Contact</a></li>
+         <li><a id="subtitle-contact" class="button" href="#contact">お問い合わせ</a></li>
+         </ul>
+      </button>
+     </div>
+  </header>
+   <main>
+    <section id="about" class="wrapper"> <!--About-->  
+     <h2 class="page-title">About</h2>
+      <div class="about-box">
+       <div class="about-left">
+        <img src="images/photo.png" alt="顔写真">
+       </div>
+        <div class="about-right">
+         <div class="name">
+           <div class="name-kanji"><p>西尾　千夏</p></div>  
+           <div class="name-en"><p>Chinatsu Nishio</p></div>
+         </div>
+          <div class="about-text"><p>
+           2000年8月4日生まれ。静岡県出身。<br>
+           2019年、高校卒業後物流会社に就職。<br>
+           2023年10月、通関士資格を取得。<br>
+           2023年12月から今後の働き方を考え、<br>
+           WebデザインやHTML、CSSを使用したコーディングをしております。
+          </div></p>
+          <p>
+          ●私の強み<br>
+          クライアント様のご要望やお気持ちを汲み取り、<br>
+          Webサイトに表現致します。
+          </p> 
+        </div>
+      </div>
+    </section>
+    <section id="works" class="wrapper"><!--Works--> 
+     <h2 class="page-title">Works</h2>
+     <div class="flex">
+      <a class="button" href="https://cocomoa.github.io/tanpopocyaya/"><img src="images/portfolio.png" alt="ポートフォリオ"></a>
+          <p class="text">
+           Title：ポートフォリオ<br>
+           使用言語：HTML,CSS
+          </p>
+    　</div>
+    <div class="flex">
+      <a class="button" href="https://cocomoa.github.io/tanpopocyaya/"><img src="images/tanpopochaya.png" alt="古民家カフェたんぽぽ茶屋(仮想サイト)"></a>
+         <p class="text">
+            Title：古民家カフェたんぽぽ茶屋(仮想サイト)<br>
+            使用言語：HTML,CSS
+         </p>
+    　</div>
+    <div class="flex">
+      <a class="button" href="https://chinacoco0804.wixsite.com/my-site3"><img src="images/the axis group.png" alt="総合経営コンサルティング The Axis Group (仮想サイト)"></a>
+         <p class="text">
+            Title：総合経営コンサルティング The Axis Group (仮想サイト)<br>
+            Tool：WIX
+         </p>
+     </div>
+     </section>
+    <section id="contact" class="wrapper"><!--Contact-->  
+     <h2 class="page-title">Contact</h2>
+     <div class="contact-text"><p>
+      お問い合わせは以下のフォームからお願い致します。<br>
+      ご連絡を心よりお待ちしております。
+      </p>
+     <div class="form">
+      <form class="google" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdHrAKs48lQaxQ4WwZ4aiH8ZnWVUcrvD31_JzWvNCQbj7h8UA/formResponse" method="post">
+       <div> 
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="entry.194657516" placeholder="山田花子"required/>
+        </div>
+         <div>
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="entry.588887081" placeholder="example@mail.co.jp">
+         </div>
+         <div>
+          <label for="tel">電話番号</label>
+          <input type="tel" id="tel" name="entry.1521126117" placeholder="111-2222-3333">
+         </div>
+          <div>
+            <label for="message">お問い合わせ内容</label>
+            <textarea type="message" name="entry.898866454"required placeholder="お気軽にお問い合わせください。"></textarea>
+          </div>
+           <div>
+             <input type="submit" class="button-soushin" value="送信"> 
+            </div>
+          </div>
+         </div>
+        </form>
+    </section>
+   </main>    
+  <footer>
+    <p>
+     Chinatsu<br>
+     Nishio<br>
+     Portfolio<br>   
+    </p>
+     <nav>
+      <ul class="fotter-menu">
+       <li><a href="#about">About</a></li>
+       <li><a href="#works">Works</a></li> 
+       <li><a href="#contact">Contact</a></li>
+      </ul>
+     </nav>
+  </footer>
+ </body>
+</html>
