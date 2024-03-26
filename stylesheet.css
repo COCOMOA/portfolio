@@ -1,0 +1,265 @@
+@charset "UTF-8";
+html{
+font-size:100%;    
+}
+body{
+  line-height:1.7; 
+}
+.page-title{
+  text-align: center;
+  font-family:"Josefin Slab";
+  font-size:250%;
+  color:#161F6D;
+}
+/*Header*/ 
+.header{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top:2%;
+  margin-bottom:5%;
+}
+.header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-family:"Josefin Slab";
+  font-size:250%;
+  color:#161F6D;
+  white-space: nowrap;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family:"Zen Kaku Gothic New";
+}
+.title-about{
+ color:#161F6D;
+}
+.title-works{
+  color:#161F6D;
+ }
+ .title-contact{
+  color:#161F6D;
+ }
+#subtitle-about{
+  text-align: center;
+  color:#000000;
+  font-size:50%;
+}
+#subtitle-works{
+  text-align: center;
+  color:black;
+  font-size:50%;
+}
+#subtitle-contact{
+  text-align: center;
+  color: black;
+  font-size: 50%;
+}
+.button-about{
+  display: flex;
+  justify-content: center;
+  font-size:25px;
+  border-radius: 50%;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to bottom right,#A1C4FD,#C2E9FB);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 2px 2px 9px gray;
+}
+.button-about:hover{
+  filter: brightness(0.7);
+}
+.button-works{
+  display: flex;
+  justify-content: center;
+  font-size:25px;
+  border-radius: 50%;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to bottom right,#A1C4FD,#C2E9FB);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 2px 2px 9px gray;
+}
+.button-works:hover{
+  filter: brightness(0.7);
+}
+.button-contact-2{
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.button-contact{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size:25px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right,#A1C4FD,#C2E9FB);
+  text-decoration: none;
+  width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 9px gray;
+  align-items: center;
+  margin: 0 auto;
+  font-family:"Zen Kaku Gothic New";
+}
+.contact{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.button-contact:hover{
+  filter: brightness(0.7);
+}
+/*About*/ 
+#about{
+  background: linear-gradient(to bottom,#C2E9FB,#799AD0);
+  background: -webkit-linear-gradient(top,#C2E9FB,#799AD0);
+  background: -moz-linear-gradient(top,#C2E9FB,#799AD0);
+  padding:5%;
+}
+.about-box{
+ margin:0 auto;
+ display:flex;
+ justify-content: center;
+ padding-top:5%;
+}
+.name{
+  display:flex;
+  margin-bottom:10%;
+  font-family:"Zen Kaku Gothic New";
+}
+.about-left img{
+ width:70%;
+}
+.h2{
+text-align: center;
+}
+.about-text{
+  padding-bottom:5%;
+  font-family:"Zen Kaku Gothic New";
+}
+p{
+  font-family:"Zen Kaku Gothic New";
+}
+.about-right{
+  font-size:14px;
+}
+.name-kanji{
+  font-size:140%;
+ }
+.name-en{
+  text-align: center;
+  margin-left:5%;
+}
+
+/*Works*/ 
+#works{
+  padding-top:5%;
+  padding-bottom:5%;
+ }
+.flex{
+  text-align: center
+}
+.flex img{
+  width:100%;
+  border-radius: 8%;
+  padding:20px 80px;
+}
+.flex img:hover{
+  filter: brightness(0.7);
+}
+/*Contact*/ 
+#contact{
+  background: linear-gradient(to bottom,#C2E9FB,#799AD0);
+  background: -webkit-linear-gradient(top,#C2E9FB,#799AD0);
+  background: -moz-linear-gradient(top,#C2E9FB,#799AD0);
+  padding-top:5%;
+  padding-bottom:5%;
+  font-family:"Zen Kaku Gothic New";
+}
+#contact p{
+ padding-top:1%;
+ padding-bottom:3%;
+}
+  form div{
+    display: block; 
+    margin-top: 0em;   
+    }
+    label{
+     font-size:1.125rem;
+     margin:10px;
+     display:block;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea{
+     background:rgba(255,255,255,.5); 
+     border:1px #ffff solid;
+     border-radius:5px;   
+     padding:10px;
+     font-size:1rem;
+     font-family:"inter";
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"]{
+     width:100%;
+     max-width:240px;
+     font-family:"inter";
+    }
+    textarea{
+     width:100%;
+     max-width:240px;
+     height:6rem;
+    }
+    input[type="submit"]{
+     border:none;
+     cursor: pointer;
+     line-height:1;    
+    }
+    .contact-text{
+      text-align: center
+    }
+    .button-soushin{
+      background:#161F6D;
+      color: #fff;
+      border-radius: 5px;
+      padding: 18px 32px;
+      margin-top:3%;
+    }
+    .button-soushin:hover{
+      opacity: 0.6;
+    }
+     /*Footer*/ 
+    footer{
+     display:flex;
+     justify-content:space-between;
+     margin:0 auto;
+     padding:2% 4%;
+     background-color:#161F6D;
+     color:white;
+     font-size:120%;
+     padding:3%;
+    }
+    ul{
+      list-style: none;
+    }
+    a{
+      text-decoration:none;
+      color:white;
+    }
+    .fotter-maenu{
+     padding-left:50px;
+    }
