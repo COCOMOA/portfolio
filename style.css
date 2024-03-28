@@ -126,7 +126,8 @@ body{
   background: linear-gradient(to bottom,#C2E9FB,#799AD0);
   background: -webkit-linear-gradient(top,#C2E9FB,#799AD0);
   background: -moz-linear-gradient(top,#C2E9FB,#799AD0);
-  padding:5%;
+  padding-top:5%;
+  padding-bottom:5%;
 }
 .about-box{
  margin:0 auto;
@@ -262,4 +263,58 @@ p{
     }
     .fotter-maenu{
      padding-left:50px;
+    }
+    @media(max-width:600px){
+    /*Header*/   
+    .header{
+      margin-top:20%;
+      margin-bottom:20%;
+    }
+    .header h1{
+      position:relative;
+    }
+    h1 span{
+      display:block;
+      text-align: center;
+      font-family:"Josefin Slab";
+    }
+    .button-about{
+      margin: 0 auto;
+    }
+    .button-works{
+      margin: 0 auto;
+    }
+    .menu{
+      display:block;
+      flex-direction: column-reverse
+    }
+    /*About*/ 
+    #about{
+      text-align: center;
+      padding-top:10%;
+      padding-bottom:10%;
+    }
+    .name{
+      display:block;
+    }
+    .name-kanji{
+      text-align: center;
+    }
+    .name-en{
+      text-align: center;
+      padding-right:5%;
+    }
+    .about-box{
+      display:block;
+    }
+    /*Works*/ 
+    #works{
+      padding-top:10%;
+      padding-bottom:10%;
+    }
+    /*Contact*/ 
+    #contact{
+      padding-top:10%;
+      padding-bottom:10%;
+    }
     }
