@@ -253,6 +253,7 @@ p{
      color:white;
      font-size:120%;
      padding:3%;
+     font-family:"julius sans one";
     }
     ul{
       list-style: none;
@@ -261,7 +262,10 @@ p{
       text-decoration:none;
       color:white;
     }
-    .fotter-maenu{
+    p{
+      font-family:"julius sans one";
+    }
+    .fotter-manu{
      padding-left:50px;
     }
     @media(max-width:600px){
@@ -272,6 +276,7 @@ p{
     }
     .header h1{
       position:relative;
+      padding-top:20%;
     }
     h1 span{
       display:block;
