@@ -73,6 +73,7 @@ body{
   text-decoration: none;
   text-align: center;
   box-shadow: 2px 2px 9px gray;
+  font-family:"Zen Kaku Gothic New";
 }
 .button-about:hover{
   filter: brightness(0.7);
@@ -89,6 +90,7 @@ body{
   text-decoration: none;
   text-align: center;
   box-shadow: 2px 2px 9px gray;
+  font-family:"Zen Kaku Gothic New";
 }
 .button-works:hover{
   filter: brightness(0.7);
@@ -134,11 +136,11 @@ body{
  display:flex;
  justify-content: center;
  padding-top:5%;
+ font-family:"Zen Kaku Gothic New";
 }
 .name{
   display:flex;
   margin-bottom:10%;
-  font-family:"Zen Kaku Gothic New";
 }
 .about-left img{
  width:70%;
@@ -148,10 +150,6 @@ text-align: center;
 }
 .about-text{
   padding-bottom:5%;
-  font-family:"Zen Kaku Gothic New";
-}
-p{
-  font-family:"Zen Kaku Gothic New";
 }
 .about-right{
   font-size:14px;
@@ -170,7 +168,8 @@ p{
   padding-bottom:5%;
  }
 .flex{
-  text-align: center
+  text-align: center;
+  font-family:"Zen Kaku Gothic New";
 }
 .flex img{
   width:100%;
@@ -187,11 +186,14 @@ p{
   background: -moz-linear-gradient(top,#C2E9FB,#799AD0);
   padding-top:5%;
   padding-bottom:5%;
-  font-family:"Zen Kaku Gothic New";
 }
 #contact p{
  padding-top:1%;
  padding-bottom:3%;
+ font-family:"Zen Kaku Gothic New";
+}
+.form{
+  font-family:"Zen Kaku Gothic New";
 }
   form div{
     display: block; 
@@ -231,7 +233,8 @@ p{
      line-height:1;    
     }
     .contact-text{
-      text-align: center
+      text-align: center;
+      font-family:"zen kaku gothic";
     }
     .button-soushin{
       background:#161F6D;
@@ -262,7 +265,7 @@ p{
       text-decoration:none;
       color:white;
     }
-    p{
+    .hotter p{
       font-family:"julius sans one";
     }
     .fotter-manu{
