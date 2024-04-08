@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
     <!--フォント--> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 　　<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,19 +18,19 @@
 </head>
  <body>
   <!--ヘッダー-->   
-  <header>
+  <header id="header">
     <div class="header">
      <h1>
       <span>Chintatsu</span> <span>Nishio</span> <span>Portfolio</span>
      </h1>
       <div class="menu">
-       <button class="button-about" type=“button” onclick="location.href='#about'">
+       <button id="button-about" class="button-about-class" type=“button” onclick="location.href='#about'">
          <ul>
           <li><a class="title-about" href="#about">About</a></li>
           <li><a id="subtitle-about" class="button" href="#about">自己紹介</li> 
          </ul>
       </button>
-       <button class="button-works" type=“button” onclick="location.href='#works'">
+       <button id="button-works" class="button-works-class" type=“button” onclick="location.href='#works'">
          <ul>
           <li><a class="title-works" href="#works">Works</a></li>
           <li><a id="subtitle-works" class="button" href="#works">制作物</a></li>
@@ -36,7 +38,7 @@
        </button>
       </div>
      <div class="contact">
-      <button class="button-contact" type=“button” onclick="location.href='#contact'">
+      <button id="button-contact" type=“button” onclick="location.href='#contact'">
         <ul>
          <li><a class="title-contact" href="#contact">Contact</a></li>
          <li><a id="subtitle-contact" class="button" href="#contact">お問い合わせ</a></li>
@@ -128,19 +130,16 @@
     </section>
    </main>    
   <footer>
-    <p>
-     Chinatsu<br>
-     Nishio<br>
-     Portfolio<br>   
-    </p>
+    <p id="p"><a href="#header">Chinatsu<br>Nishio<br>Portfolio<br></a></p>
+
      <nav>
-      <ul class="fotter-menu">
-       <li><a href="#about">About</a></li>
-       <li><a href="#works">Works</a></li> 
-       <li><a href="#contact">Contact</a></li>
+      <ul class="footer-menu">
+       <li class="menu-works"><a href="#about">About</a></li>
+       <li class="menu-works"><a href="#works">Works</a></li> 
+       <li class="menu-contact"><a href="#contact">Contact</a></li>
       </ul>
      </nav>
   </footer>
+  <script src="script.js"></script>
  </body>
 </html>
-
