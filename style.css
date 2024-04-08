@@ -1,9 +1,11 @@
 @charset "UTF-8";
 html{
-font-size:100%;    
+font-size:100%; 
+height: 100%;   
 }
 body{
   line-height:1.7; 
+  height: 100%;
 }
 .page-title{
   text-align: center;
@@ -12,9 +14,11 @@ body{
   color:#161F6D;
 }
 /*Header*/ 
+#header{
+  height: 100%;
+}
 .header{
   width: 100%;
-  height: auto;
   position: relative;
   margin-top:2%;
   margin-bottom:5%;
@@ -29,13 +33,16 @@ body{
   font-size:250%;
   color:#161F6D;
   white-space: nowrap;
+  display:none;
 }
 
 .menu {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    font-family:"Zen Kaku Gothic New";
+  display: flex;
+  max-width: 650px;
+  margin: 0 auto;
+  justify-content: space-between;
+  list-style: none;
+  font-family:"Zen Kaku Gothic New";
 }
 .title-about{
  color:#161F6D;
@@ -61,8 +68,7 @@ body{
   color: black;
   font-size: 50%;
 }
-.button-about{
-  display: flex;
+#button-about{
   justify-content: center;
   font-size:25px;
   border-radius: 50%;
@@ -75,11 +81,13 @@ body{
   box-shadow: 2px 2px 9px gray;
   font-family:"Zen Kaku Gothic New";
 }
-.button-about:hover{
+#button-about:hover{
   filter: brightness(0.7);
 }
-.button-works{
-  display: flex;
+.button-about-class{
+ display:none;
+}
+#button-works{
   justify-content: center;
   font-size:25px;
   border-radius: 50%;
@@ -92,15 +100,13 @@ body{
   box-shadow: 2px 2px 9px gray;
   font-family:"Zen Kaku Gothic New";
 }
-.button-works:hover{
+#button-works:hover{
   filter: brightness(0.7);
 }
-.button-contact-2{
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
+.button-works-class{
+  display:none;
 }
-.button-contact{
+#button-contact{
   text-align: center;
   justify-content: center;
   display: flex;
@@ -114,13 +120,14 @@ body{
   align-items: center;
   margin: 0 auto;
   font-family:"Zen Kaku Gothic New";
+  display:none;
 }
 .contact{
   text-align: center;
   justify-content: center;
   align-items: center;
 }
-.button-contact:hover{
+#button-contact:hover{
   filter: brightness(0.7);
 }
 /*About*/ 
@@ -265,10 +272,11 @@ text-align: center;
       text-decoration:none;
       color:white;
     }
-    .hotter p{
+    .footer p{
       font-family:"julius sans one";
+
     }
-    .fotter-manu{
+    .footer-manu{
      padding-left:50px;
     }
     @media(max-width:600px){
