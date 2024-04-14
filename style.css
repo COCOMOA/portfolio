@@ -280,60 +280,68 @@ text-align: center;
      padding-left:50px;
     }
     @media(max-width:600px){
-      /*Header*/  
-      #header{
-       height: 200%;
-      } 
-      .header{
-        margin-top:20%;
-        margin-bottom:20%;
-      }
-      .header h1{
-        position:relative;
-        padding-top:20%;
-      }
-      h1 span{
-        display:block;
-        text-align: center;
-        font-family:"Josefin Slab";
-      }
-      #button-about{
-        margin-left:10%;
-      }
-      #button-contact{
-        margin-left:10%;
-      }
-      .menu{
-        display:block;
-    
-      }
-      /*About*/ 
-      #about{
-        text-align: center;
-        padding-top:10%;
-        padding-bottom:10%;
-      }
-      .name{
-        display:block;
-      }
-      .name-kanji{
-        text-align: center;
-      }
-      .name-en{
-        text-align: center;
-        padding-right:5%;
-      }
-      .about-box{
-        display:block;
-      }
-      /*Works*/ 
-      #works{
-        padding-top:10%;
-        padding-bottom:10%;
-      }
-      /*Contact*/ 
-      #contact{
-        padding-top:10%;
-        padding-bottom:10%;
-      }
-      }
+    /*Header*/  
+    #header{
+     height: 150%;
+    } 
+    .header{
+      margin-top:20%;
+      margin-bottom:20%;
+    }
+    .header h1{
+      position:relative;
+      padding-top:20%;
+    }
+    h1 span{
+      display:block;
+      text-align: center;
+      font-family:"Josefin Slab";
+    }
+    #button-about{
+      margin-left:20%;
+      width: 200px;
+      height: 200px;
+    }
+    #button-works{
+      width: 200px;
+      height: 200px;
+    }
+    #button-contact{
+      margin-left:20%;
+      width: 200px;
+      height: 200px;
+    }
+    .menu{
+      display:block;
+  
+    }
+    /*About*/ 
+    #about{
+      text-align: center;
+      padding-top:10%;
+      padding-bottom:10%;
+    }
+    .name{
+      display:block;
+    }
+    .name-kanji{
+      text-align: center;
+    }
+    .name-en{
+      text-align: center;
+      padding-right:5%;
+    }
+    .about-box{
+      display:block;
+    }
+    /*Works*/ 
+    #works{
+      padding-top:10%;
+      padding-bottom:10%;
+    }
+    /*Contact*/ 
+    #contact{
+      padding-top:10%;
+      padding-bottom:10%;
+    }
+    }
