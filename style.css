@@ -282,7 +282,7 @@ text-align: center;
     @media(max-width:600px){
       /*Header*/  
       #header{
-       height: 150%;
+       height: 200%;
       } 
       .header{
         margin-top:20%;
@@ -298,10 +298,10 @@ text-align: center;
         font-family:"Josefin Slab";
       }
       #button-about{
-        margin-left:20%;
+        margin-left:10%;
       }
       #button-contact{
-        margin-left:20%;
+        margin-left:10%;
       }
       .menu{
         display:block;
