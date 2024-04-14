@@ -282,7 +282,7 @@ text-align: center;
     @media(max-width:600px){
     /*Header*/  
     #header{
-     height: 200%;
+     height: 180%;
     } 
     .header{
       margin-top:20%;
